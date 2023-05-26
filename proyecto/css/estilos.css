@@ -1,0 +1,77 @@
+.carousel-inner{
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.row{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.formulario-uno{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+#pie-de-pagina{
+    margin-top: 30px;
+}
+
+
+.acordion{
+    display: flex;
+    justify-content: center;
+}
+
+.accordion{
+    width: 70%;
+    margin-top: 80px;
+    margin-bottom: 50px;
+
+}
+
+#subtitulos{
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+    color: #3b71ca;
+
+}
+
+.nosotros{
+    margin-top: 50px;
+    width: 45%;
+    
+    
+    
+    text-align: justify;
+
+}
+
+.nosotros-g{
+    display: flex;
+    justify-content: center;
+}
+
+.encabezado-tabla{
+    
+    justify-content: center;
+}
+
+.text-encabezado{
+    margin: 0px auto;
+    display: grid;
+    place-content: center;
+    
+}

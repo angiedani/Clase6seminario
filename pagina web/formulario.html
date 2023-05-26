@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escuela de musica</title>
+
+    <!-- MDB icon -->
+    <link rel="icon" href="img/Escudo_de_Ipiales.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body >
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Container wrapper -->
+        <div class="container">
+          <!-- Navbar brand -->
+          <a class="navbar-brand me-2" href="index.html">
+            <img
+              src="img/Escudo_de_Ipiales.png"
+              height="35"
+              alt="MDB Logo"
+              loading="lazy"
+              style="margin-top: -1px;"
+            />
+          </a>
+          <label for="nombre">ESCUELA DE MUSICA "Ernesto Santamaría"       </label>
+  
+          <!-- Toggle button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarButtonsExample"
+            aria-controls="navbarButtonsExample"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+  
+          <!-- Collapsible wrapper -->
+          <div class="collapse navbar-collapse" id="navbarButtonsExample">
+            <!-- Left links -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+            <!-- Left links -->
+  
+            <div class="d-flex align-items-center">
+              <a href="formulario.html">
+                <button type="button"  class="btn btn-primary me-3">
+                  Registrarse
+                </button>
+              </a>
+              
+              <a
+                class="btn btn-dark px-3"
+                href="formulario.html"
+                role="button"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+      </nav>
+      <!-- Navbar -->
+   
+    <table class="encabezado-tabla"  width="100%"  border="1px" rules="all"  >
+        <tr >
+            
+            <td width="33.3333333%"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjT-RUILmhx3CtaXJtlT-SY_SQHrul4K-yFRpZi8SOY-cIWfQsNDhxaz4wdtefjAB9l69FmiFwWV27u2xpdf6VkKfwA52pvFm5ZzQIA0V2388CnPPH91wxNPF9wGMIE8GPvhu5fSjZd1owLQmSFHtQiVZKjoZ9eId0SJH58_MIa-5jR1F1MxpRjFQeZ/w262-h254/Escudo_de_Ipiales.png" width="150"></td>
+            <td align="center" id="text-encabezado" width="33.3333333%"><u>FORMULARIO DE <br>INSCRIPCION 2023</u></td> 
+            <td width="33.3333333%" style="text-align: right;"><img src="https://media.istockphoto.com/vectors/luxury-music-logo-design-golden-shiny-musical-emblem-vector-id929487052" width="120px"></td>
+        </tr>
+
+    </table>
+    <table width="100%"  border="1px" rules="all"  >
+        <tr>
+            <th  style="background-color: rgb(167, 197, 140); text-align: center;"><br><u>ESCUELA DE MUSICA "Ernesto Santamaría"</u><br> </th>
+        </tr>
+    </table>
+    <table width="100%"  border="1px" rules="all"  >
+        <tr>
+            <th align="center" style="background-color: bisque;">INFORMACIÓN PERSONAL</th>
+        </tr>
+    </table>
+    
+    <table width="100%" border="1px" rules="all">
+        <tr>
+            <td style="width: 40%;">Nombre completo:<input placeholder="escriba su nombre completo aquí" type="text" style="width: 200px;"></td>
+        </tr>
+        <tr>
+            <td style="width: 40%;">Fecha de nacimiento:<input type="date" style="width: 100px;"></td>
+        </tr>
+        <tr>
+            <td style="width: 40%;">Numero de identificación:<input placeholder="ingrese aqui su numero" type="text"style="width: 150px;"></td>
+        </tr>
+        <tr>
+            <td style="width: 40%;">Edad:<input type="number" min="1" max="100" style="width: 50px;"></td>
+        </tr>
+        <tr>
+            <td style="width: 40%;">Numero de celular:<input placeholder="ingrese aqui su numero" type="text"style="width: 150px;"></td>
+        </tr>
+        <tr>
+            <td style="width: 40%;">Correo electrónico:<input placeholder="@gmail.com" type="email" style="width: 100px;"></td>
+        </tr>
+    </table>
+    <table width="100%" border="1px" rules="all">
+        <tr>
+            <td style="width: 100%;">disponibilidád de horarios
+            <select id="disponibilidád de horarios" style="background-color: aquamarine;">
+            <option>escoja el dia que se encuentra disponible</option>
+            <option style="background-color: olive;">lunes</option>
+            <option style="background-color: olive;">Martes</option>
+            <option style="background-color: olive;">Miercoles</option>
+            <option style="background-color: olive;">Jueves</option>
+            <option style="background-color: olive;">Viernes</option>
+            <option style="background-color: olive;">Sabado</option>
+           </select>
+           </tr>
+    </table>
+    <table width="100%" border="1px" rules="all">
+        <tr>
+            <td style="width: 100%;">Marque el horario disponible que desea:
+            2 a 4 PM <input type="checkbox" id="horario"> 
+            4 a 6 PM <input type="checkbox" id="horario">
+            6 a 8 PM <input type="checkbox" id="horario">
+            Sabados de 8 AM a 12 PM <input type="checkbox" id="horario"></td>
+        </tr>
+    </table>
+    <table width="100%"  border="1px" rules="all"  >
+        <tr>
+            <th align="center" style="background-color: bisque;">En caso de que el estudiante sea menor de edad ingresar los datos del el padre o de el representante legal</th>
+        </tr>
+    </table>
+    <table width="100%" border="1px" rules="all">
+        <tr>
+            <td style="width: 40%;">Nombre completo:<input placeholder="escriba su nombre completo aquí" type="text" style="width: 200px;"></td>
+        </tr>
+        <tr>
+            <td style="width: 40%;">Numero de celular:<input placeholder="ingrese aqui su numero" type="text"style="width: 150px;"></td>
+        </tr>
+        <tr>
+            <td style="width: 40%;">Correo electrónico:<input placeholder="@gmail.com" type="email" style="width: 100px;"></td>
+        </tr>
+    </table>
+    <table width="100%" border="1px" rules="all">
+    <tr>
+        <td style="width: 40%;">Numero de identificación:<input placeholder="ingrese aqui su numero" type="text"style="width: 150px;"></td>
+        <td  style="width: 40%;">Cargar documento de identificación del responsable :<input type="file" style="width: 135px;"></td>
+    </tr>
+    </table>
+    <table width="100%"  border="1px" rules="all"  >
+        <tr>
+            <th align="center" style="background-color: bisque;">Disponibilidad:</th>
+        </tr>
+    </table>
+    <table width="100%" border="1px" rules="all">
+        <tr>
+            <td style="width: 100%;">Instrumentos disponibles:
+            <select id="instrumentos"style="background-color: aquamarine;">
+            <option>Seleccione el instrumento que desea aprender a interpretár.</option>
+            <option style="background-color: khaki;">Coro, iniciación musical (niños de 5 a 12 año)</option>
+            <option style="background-color: khaki;">Piano (cupos ilimitados)</option>
+            <option style="background-color: khaki;">Guitarra</option>
+            <option style="background-color: khaki;">Tiple</option>
+            <option style="background-color: khaki;">Requinto</option>
+            <option style="background-color: khaki;">Trompeta</option>
+            <option style="background-color: khaki;">Saxofón</option>
+            <option style="background-color: khaki;">Clarinete</option>
+            <option style="background-color: khaki;">Corno francés</option>
+            <option style="background-color: khaki;">Trombón</option>
+            <option style="background-color: khaki;">Tuba</option>
+            <option style="background-color: khaki;">Percusión</option>
+           </select>
+           </tr>
+    </table>
+    <table width="100%" border="1px" rules="all">
+        <tr>
+            <td style="width: 40%;">Grado que cursa el estudiante:<br>(aplica para los estudiantes que esten matriculados en alguna de las sedes educativas ) <input type="number" min="1" max="11" style="width: 50px;"></td>
+        </tr>
+    </table>
+    <table width="100%" border="1px" rules="all">
+        <tr>
+            <td style="width: 40%;"><b><u>Horario de clase será publicado el dia viernes 5 de mayo del año 2023 en la cartelera de la alcaldía municipal,<br>
+                  en la escuela de música y en los establecimientos educativos del casco urbano.</u></b></td>
+        </tr>
+    </table>
+    <table width="100%" border="1px" rules="all">
+        <tr>
+            <td style="width: 40%;"><b><u>Adjuntar fotocopia de la tarjeta de identidad o cédula de ciudadania a este formato (Documento obligatorio)</u></b><br>
+            los datos recolectados seran tratados siempre dentro de un marco de confidencialidad por lo que no seran facilitados,
+            cedidos o entregados a personas distintas o ajenas a los responsables de la escuela de musica.</td>
+        </tr>
+    </table>
+    <table width="100%"  border="1px" rules="all"  >
+        
+        <tr style="text-align: center;">
+            <th rowspan="2"><b>" Unidos Construyendo Un Futuro"</b><br>Nit:890210617-4<br>Codigo postal 685061<br>Cel: 3219369302<br>Carrera 3 No. 6-10 Sn Visente, Ipiales<br>www.ernestosantamaria.gov.co<br>alcaldia@ernestosantamaria.gov.co</th> 
+        </tr>
+    </table>
+
+
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+    
+</body>
+</html>
